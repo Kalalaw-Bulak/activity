@@ -1,0 +1,99 @@
+body {
+    text-align: center;
+}
+
+button {
+    display: flex;
+    flex-direction: column; 
+}
+
+.blue {
+    width: 60px;
+    height: 30px;
+    background-color: blue;
+
+
+}
+
+.pink {
+    width: 60px;
+    height: 30px;
+    background-color: pink;
+
+    position: absolute;
+    top: 300px;
+}
+
+.brown {
+    width: 60px;
+    height: 30px;
+    background-color: brown;
+
+    position: absolute;
+    top: 500px;
+}
+
+.image {
+    border: 2px solid black;
+    width: 750px;
+    height: 550px;
+
+    position: absolute;
+    left: 550px;
+    top: 250px;
+
+}
+
+.laki {
+    background-image: url(./ben-10.webp);
+    background-size: cover;
+    
+    border: 2px solid rgb(90, 90, 212);
+    width: 750px;
+    height: 550px;
+
+    position: absolute;
+    left: 550px;
+    top: 250px;
+}
+
+.baye {
+    background-image: url(./sofia-the-first.jpg);
+    background-size: cover;
+    
+    border: 2px solid pink;
+    width: 750px;
+    height: 550px;
+
+    position: absolute;
+    left: 550px;
+    top: 250px;
+}
+
+.tiguwang {
+    background-image: url(./old-man.jpg);
+    background-size: cover;
+    
+    border: 2px solid brown;
+    width: 750px;
+    height: 550px;
+
+    position: absolute;
+    left: 550px;
+    top: 250px;
+}
+
+.box {
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color: white;
+
+    width: 600px;
+    height: 200px;
+
+    position: absolute;
+    bottom: -80px;
+    left: 640px;
+
+    font-size: 25px;
+}
